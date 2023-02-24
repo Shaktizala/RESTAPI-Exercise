@@ -1,9 +1,9 @@
 Api for the HOSPITAL
 
-- get hospital/patient/patient_id(list specific patient details)
-- get hospital/patient (list all patient details)
-- post hospital/patient(add new pattient)
-- put hospital/patient/105
+- get hospital/patient/patient_id/deases(list specific patient details)
+- get hospital/patient/deases (list all patient details)
+- post hospital/patient/deases(add new pattient)
+- put hospital/patient/deases/105
 {
     name="hira"
     weight=56
@@ -11,9 +11,9 @@ Api for the HOSPITAL
     address="rajkot"
 
 }
-- patch hospital/patient/105 
+- patch hospital/patient/deases/105 
 {
     name="hiral"
 }
 
-- delete hospital/patient/patient_id
+- delete hospital/patient/patient_id/deases
