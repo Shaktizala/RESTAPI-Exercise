@@ -1,0 +1,39 @@
+API to check collection of books and it's authors
+
+get /authors
+get /authors/author id 
+get /books
+{
+    id = int primary key 
+    name = Char
+    price = Integer
+    description = Char
+    author = Char foreign key
+    genres = Char
+}
+get /books/bookid 
+{
+	id : 501
+	name = The Inhertiance Games 
+	price = 500
+	description = Inheritance Games is about a teenage girl, Avery Grambs, who grew up with very little money to her name. Soon she learns that she has inherited most of the multi-billionaire, Tobias Hawthorne's wealth and land, and has no connection to the family entirely.
+	author = Jennifer Lynn Barnes
+	genre = Mystery, Fiction
+}
+
+post /authors 
+post /books
+
+put /authors/authorid
+put /books/bookid
+
+patch /authors/authorid
+patch /books/bookid
+{
+	id : 501
+	name : The Inheritance Games
+	genre : Mystery
+}
+
+delete /authors/authorid
+delete /books/bookid
