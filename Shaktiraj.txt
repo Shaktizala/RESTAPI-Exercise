@@ -1,0 +1,65 @@
+Hotel Management
+
+Tables
+Hotels{
+	hotelId
+	hotelName
+	hotelRatings
+}
+
+Customers{
+	customerId
+	name
+}
+Reviews{
+	reviewId
+	review
+}
+
+
+Get 
+GET /hotels/hotelid/
+GET /hotels/
+GET /hotels/hotelid/customers/
+GET /hotels/hotelid/customers/customerid/
+GET /hotels/hotelid/customers/customerid/reviews/
+GET /hotels/hotelid/customers/customerid/reviews/reviewid
+
+
+POST 
+
+POST /hotels/
+{
+	hotelId : 1
+	hotelName : abc
+	hotelRatings : 3
+}
+
+POST /hotels/hotelid/customers/
+{
+	customerId : 1
+	customerName : newcustomer
+}
+
+POST /hotels/hotelid/customers/customerid/reviews/
+{
+	reviewid : 1
+	review :"good exeperience, requires improvement in housekeeping"
+}
+
+PUT
+
+PUT /hotels/hotelid/
+{
+	hotelId : 1
+	hotelName : def
+	hotelRatings : 3
+}
+
+PATCH /hotels/hotelid/customers/customerid/
+{
+	customerName : customer		
+}
+
+DELETE /hotels/hotelid/
+DELETE /hotels/hotelid/customers/customerid/
