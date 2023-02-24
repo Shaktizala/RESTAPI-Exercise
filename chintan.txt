@@ -1,0 +1,36 @@
+Electric Engineer --> Role -->LC(Line Clear)
+
+--------------------------------------------
+
+---> GET <---
+GET engineer/cug_number/role/lc/lcnumber
+
+---> POST <---
+
+POST Engineer/
+
+    {
+        name:Chintan Viradiya
+        cug_number:9876543210
+        email:chintan@gmail.com
+        ...
+    }
+
+---> PUT <---
+PUT engineer/cug_number
+    {
+        name:Chintan Patel
+        cug_number:9999999999
+        email:chintan123@gmail.com
+        ...
+    }
+
+---> PETCH <---
+PETCH engineer/cug_number
+    {
+        name:Chintan Sakhiya
+    }
+
+---> DELETE <---
+
+DELETE engineer/cug_number
