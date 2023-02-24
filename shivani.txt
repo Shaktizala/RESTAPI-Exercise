@@ -1,0 +1,30 @@
+for the sport, player, equipment
+
+
+GET /sport/football  //GIVE THE LIST
+GET /players/players_id
+
+
+POST /player/player_id   // CREATES DATA
+{
+    player_id=1
+    player_name=shivani
+    player_mentor=who
+}
+
+PUT /player/player_id    //UPAATES DATA WHOLE
+{
+     player_id=2
+    player_name=shiv
+    player_mentor=whoever
+}
+
+PATCH /player/player_id  // UPDATES DATA SPECIFIC
+{
+    player_id=3
+    player_name=shivang
+
+}
+
+DELETE /player/player_id  //DELETES DATA 
+

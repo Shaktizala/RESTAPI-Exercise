@@ -1,0 +1,40 @@
+API to check collection of office and it's employee and thier devices
+
+
+GET /office
+POST /office
+PATCH /office/officeid
+{
+    "branch_name":"Rajkot1"
+}
+PUT /office/officeid
+{
+    "officeid":1,
+    "branch_name":"Rajkot"
+}
+
+DELETE /office/officeid
+
+GET /office/officeid/employee
+POST /office/officeid/employee
+PATCH /office/officeid/employee/employeeid
+{
+    "employee_name":"ABC"
+}
+PUT /office/officeid/employee/employeeid
+{
+    "employeeid":1345678,
+    "employee_name":"ABC"
+}
+DELETE /office/officeid/employee/employeeid
+
+
+GET /office/officeid/employee/employeeid/assets
+POST /office/officeid/employee/employeeid/assets
+PATCH /office/officeid/employee/employeeid/assets/assetsid
+PUT /office/officeid/employee/employeeid/assets/assetsid
+{
+    "assetsid":138,
+    "assets_name":"ABC"
+}
+DELETE /office/officeid/employee/employeeid/assets/assetsid

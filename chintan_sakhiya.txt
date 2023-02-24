@@ -1,0 +1,20 @@
+movies/movie.id/cast/cast.id/socialmedia
+
+movie
+	movie.id
+	movie.name
+
+cast
+	cast.id
+	cast.name
+	cast.socialmedia
+
+
+
+
+get   -movies/movie.id/ {return single movie details}
+get   -movies/ {return all movies details page=1,records=15}
+post  -movies/movies.id/ {add movie detais}
+put   -movies/movies.id/ {add movie detais}
+patch -movies/movies.id?movie.id="8551"&movie.name="aqs" {add details}
+delete-movies/movie.id/review.id
