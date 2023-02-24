@@ -1,0 +1,21 @@
+API to check collection of office and it's employee and thier devices
+
+
+GET /office
+POST /office
+PATCH /office/officeid
+PUT /office/officeid
+DELETE /office/officeid
+
+GET /office/officeid/employee
+POST /office/officeid/employee
+PATCH /office/officeid/employee/employeeid
+PUT /office/officeid/employee/employeeid
+DELETE /office/officeid/employee/employeeid
+
+
+GET /office/officeid/employee/employeeid/assets
+POST /office/officeid/employee/employeeid/assets
+PATCH /office/officeid/employee/employeeid/assets/assetsid
+PUT /office/officeid/employee/employeeid/assets/assetsid
+DELETE /office/officeid/employee/employeeid/assets/assetsid
