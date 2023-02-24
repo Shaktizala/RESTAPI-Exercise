@@ -1,10 +1,20 @@
-movies/movie.id/movie.name/trailers/trailer.id
+movies/movie.id/cast/cast.id/socialmedia
+
+movie
+	movie.id
+	movie.name
+
+cast
+	cast.id
+	cast.name
+	cast.socialmedia
 
 
 
-post  -movies/movie.id
-get   -movies/movie.id
-get   -movies/ 
-put   -movies/movie.id
-patch -
-delete-mivies/movie.id
+
+get   -movies/movie.id/ {return single movie details}
+get   -movies/ {return all movies details page=1,records=15}
+post  -movies/movies.id/ {add movie detais}
+put   -movies/movies.id/ {add movie detais}
+patch -movies/movies.id?movie.id="8551"&movie.name="aqs" {add details}
+delete-movies/movie.id/review.id
