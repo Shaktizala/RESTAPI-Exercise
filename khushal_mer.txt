@@ -1,0 +1,26 @@
+**API for factory workers**
+
+GET /workers/workerID
+GET /Role/RoleID/worker/workerID
+GET /Department/DepartmentId/Role/RoleID/worker/workerID
+
+POST /workers
+{ 
+    "name":"abc",
+    "Role":"RoldID",
+    "Department":"DepartmentID"
+
+}
+PUT /worker/workerID
+{
+    "name":"abc",
+    "Role":"RoldID",
+    "Department":"DepartmentID"
+}
+
+PATCH   /worker/workerID
+{
+    "name":"abcd"
+}
+
+DELETE /worker/workerID
