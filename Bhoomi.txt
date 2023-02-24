@@ -1,0 +1,32 @@
+get /movie
+get industry/industryid/movie/movieid 
+get /hero
+{
+    id = int primary key 
+    name = Char
+    indusrty = Char foreign key
+    movie = Char foreign key
+}
+get /hero/heroid 
+{
+	id : 934
+	name = Harry Potter 
+	industry = Hollywood
+	Hero= Dainel Redcliff
+}
+
+post /movie 
+post /hero
+
+put /movie/movieid
+put /hero/heroid
+
+patch /movie/movieid
+patch /hero/heroid
+{
+	id : 934
+	name : Harry Potter half blood prince
+}
+
+delete /movie/movieid
+delete /hero/heroid
