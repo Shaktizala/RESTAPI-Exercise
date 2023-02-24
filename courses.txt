@@ -1,0 +1,39 @@
+=> /courses/library/<course name>/<content table>/<module name>
+
+level 1 [/courses/library/<course name>]
+level 2 [/<content table>]
+level 3 [/<module name>]
+
+Get /courses/library/<course name>/<content table>/<module name>/
+
+Post /courses/library/
+
+{
+  "cource name" : "<name>",
+  "author": "<name>",
+  "level": "bignner",
+  "tags": ["<tag1>", "<tag2>", "<tag3>"],
+  "pre-req-course-link": ["<course 1>"],
+}
+
+Put /courses/library/course/<id>
+
+{
+  "id": <id>
+  "cource name" : "<name>",
+  "author": "<name>",
+  "level": "bignner",
+  "tags": ["<tag1>", "<tag2>", "<tag3>", "<tag4>"],
+  "pre-req-course-link": ["<course 1>", "<course 2>"],
+  "hours": "20hrs",
+}
+
+Delete /courses/library/course/<id>
+
+Patch /courses/library/course/<id>
+
+{
+  "id": <id>,
+  "tags": ["<tag1>", "<tag2>", "<tag3>", "<tag4>", "<tag5>"],
+}
+
