@@ -1,0 +1,31 @@
+GET /companies/list
+GET /companies/branch_id
+
+GET /comapnies/department/list
+GET /comapnies/department/dept_id
+
+GET /companies/department/employee/list
+GET /companies/department/employee/emp_id
+GET /companies/employee/list
+GET /companies/employee/emp_id
+
+POST /companies/
+{
+    "id":1
+    "branch_name":"Rajkot"
+    "employees":300
+}
+
+PUT /companies/
+{
+    "id":1
+    "branch_name":"Rajkot"
+    "employees":300
+}
+
+PATCH /companies/branch_id
+{
+    "branch_name":"Rajkot"
+}
+
+DELETE /companies/branch_id
