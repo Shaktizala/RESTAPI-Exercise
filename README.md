@@ -1,2 +1,5 @@
 # RESTAPI-Exercise
-This is the repository to collect the RESTAPI Exercise, all of you create your files and put it in here. for more information read the Readme file.
+Instructions:
+
+Keep your name as branch name and file name.
+Mention the Resource name you've selected on the starting.
