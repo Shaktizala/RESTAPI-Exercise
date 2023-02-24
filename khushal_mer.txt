@@ -1,8 +1,8 @@
 **API for factory workers**
 
 GET /workers/workerID
-GET /Role/worker/workerID
-GET /Department/Role/workerID
+GET /Role/RoleID/worker/workerID
+GET /Department/DepartmentId/Role/RoleID/worker/workerID
 
 POST /workers
 { 
