@@ -1,0 +1,19 @@
+Api for the HOSPITAL
+
+- get hospital/patient/patient_id/deases(list specific patient details)
+- get hospital/patient/deases (list all patient details)
+- post hospital/patient/deases(add new pattient)
+- put hospital/patient/deases/105
+{
+    name="hira"
+    weight=56
+    height=5'6
+    address="rajkot"
+
+}
+- patch hospital/patient/deases/105 
+{
+    name="hiral"
+}
+
+- delete hospital/patient/patient_id/deases
