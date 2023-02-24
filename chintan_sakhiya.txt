@@ -1,0 +1,10 @@
+movies/movie.id/movie.name/trailers/trailer.id
+
+
+
+post  -movies/movie.id
+get   -movies/movie.id
+get   -movies/ 
+put   -movies/movie.id
+patch -
+delete-mivies/movie.id
