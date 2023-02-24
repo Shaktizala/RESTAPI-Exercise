@@ -1,0 +1,23 @@
+Get = /studentid  give list of banks
+Get = /studentid/ stduent_name 
+Get = /studentid/ student_name /mark /sem6
+
+post /student/stuent_name
+{
+     "id"    :" 9190144"
+ " student"  : "Dhruv"
+
+
+}
+put /student/stuent_name
+{
+     "id"    :" 9190144"
+ " student"  : "Dhruv"
+}
+patch /student/stuent_name
+{
+    
+ " student"  : "Dhruv"
+}
+Delete /student/stuent_name
+ 
