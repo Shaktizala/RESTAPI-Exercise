@@ -25,3 +25,15 @@ PATCH = /bank/{bank_id}   --> update data
 
 DELETE = /bank/{bank_id}    -->delete data
 
+
+GET = /bank/{bank_id}/customer
+POST = /bank/{bank_id}/customer
+PUT = /bank/bankid/customer/customerid
+PATCH = /bank/bankid/customer/customerid
+DELETE = /bank/bankid/customer/customerid
+
+GET = /bank/{bank_id}/customer/phno
+POST = /bank/{bank_id}/customer/phno
+PUT = /bank/bankid/customer/customerid/FD_details
+PATCH = /bank/bankid/customer/customerid/FD_details
+DELETE = /bank/bankid/customer/customerid/FD_details
