@@ -1,5 +1,5 @@
 get /movie
-get /movie/movieid 
+get industry/industryid/movie/movieid 
 get /hero
 {
     id = int primary key 
